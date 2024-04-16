@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculation.js"></script>
+</head>
+<body>
+    <div class="input_data">Tax Calculator<br>
+    <label for="Income">Enter gross annual income</label>
+    <input type="number"  name ="income"id="income" placeholder="Enter gross annual income " min="0">
+
+    <label for="extra">Enter Extra Income</label>
+    <input type="number" name="extra" id="extra" placeholder="Enter Extra Income" min="0">
+
+    <label type="age">Enter age group</label>
+    <input type="number" name="age"id="age" placeholder="Enter age group"min="0">
+
+    <label type="dedactions">Enter total applicable dedactions</label>
+    <input type="number" name="dedactions" id="dedactions" placeholder="Enter total applicable dedactions" min="0">
+
+    <button onclick="calculate()">Submit</button> 
+    <div id="result"></div>
+    </div>
+</body>
+</html>

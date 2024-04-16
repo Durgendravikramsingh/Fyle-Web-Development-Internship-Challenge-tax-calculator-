@@ -1,0 +1,35 @@
+.input_data{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+.input_data label{
+    margin-top:10px;
+    display: block;
+}
+
+.input_data input{
+    
+            width: 100%;
+            padding: 8px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            box-sizing: border-box;
+            margin-bottom: 5px;
+}
+.input_data button{
+    background-color: #591be0;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            
+}
+#result{
+    margin-top: 10px;
+}
